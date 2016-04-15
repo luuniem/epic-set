@@ -1,0 +1,332 @@
+.navigation {
+  background-color: #808685;
+}
+
+.navigation h3{
+  font-family: sans-serif;
+  font-weight:100;
+  font-size: 1.6em;
+  color: red;
+  text-align: center;
+  padding-top: -3px;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.logo {
+  background-color: #4F5755;
+}
+
+
+/*Body----------------------------------*/
+.body {
+  /*background-color: #E6E6E6;*/
+  background-color: #ffd9b3;
+}
+.message {
+  margin-top: 10px;
+}
+
+.score h3 {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 3em;
+  margin-top: 5%;
+}
+#score {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 2em;
+  padding-left: 15%;
+}
+
+.initial-display {
+  text-align: center;
+  border-radius: 20px;
+  background-color: #99e6e6;
+  border: 3px solid #32cdcd;
+  box-shadow: white 1px 1px 3px 3px;
+  font-family: 'Cabin Sketch', cursive;
+  color: black;
+  margin-top: 20px;
+
+}
+#start {
+  margin: 20px;
+  min-width: 200px;
+  background-color: transparent;
+  box-shadow: 1px 1px 3px 3px;
+}
+
+
+/*button styles-------------------------*/
+.play {
+  text-align: center;
+  max-width: 120px;
+  max-height: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 2px 2px 3px 3px;
+}
+
+.clock {
+  max-width: 300px;
+  margin: auto;
+}
+
+#replay {
+  background-color: red;
+}
+
+.time-btn {
+  text-align: center;
+  min-width: 90px;
+  max-height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 1px 1px 2px 2px;
+  font-family: 'Cabin Sketch', cursive;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+/*.timer {
+  text-align: center;
+}*/
+.button-row {
+  text-align: center;
+}
+
+/*Hidden cards-------------------------*/
+#hidden-ds {
+  max-width: 1136px;
+  display: none;
+}
+
+.hd-move {
+  max-width: 1136px;
+  margin-left: 1px;
+}
+
+.hide-input {
+  min-height: 130px;
+  max-width: 180px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 23.6px;
+  opacity: 0.8;
+}
+
+.double-set {
+  float: right;
+  margin-right: 2%;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+/*card styles--------------------------*/
+.board {
+  background-color: #5c85d6;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.size {
+  min-width: 250px;
+  margin: 10px;
+  margin-left: -15px;
+  margin-right: -15px;
+  opacity: 0.95;
+  display: block;
+}
+.initial-hide {
+  display: none;
+}
+
+.cardStyle {
+  max-width:100%;
+  min-width:50%
+}
+
+.cardShadow {
+  box-shadow: 3px 3px 5px 5px #e97c7c;
+}
+
+
+.middle {
+  border: 4px solid darkgray;
+}
+
+input[type=checkbox] {
+    display:none;
+}
+
+.className {
+  display: none;
+}
+
+.board {
+ padding-top: 10px;
+}
+
+.col-xs-15{
+    width:20%;
+}
+
+
+/*Rules------------------*/
+
+.rules {
+  float: right;
+  margin-top: 12px;
+}
+#modal-rules {
+  margin-bottom: 15px;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 2em;
+  background-color: #f2f2f2;
+
+}
+#modal-rules2 {
+  margin-bottom: 15px;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 2em;
+  background-color: #f2f2f2;
+}
+.GOcontainer {
+  text-align: center;
+}
+
+/*Modal Styles_-------------------------*/
+.final-score {
+  font-size: 2em;
+  }
+.GOcontainer {
+  color: white;
+  font-family: 'Cabin Sketch', cursive;
+}
+.GOmodal-content{
+  background-color: black;
+}
+#GOimg {
+  border: 4px solid white;
+  border-radius: 20px;
+  margin-top: 3%;
+}
+#GOclose {
+  background-color: #ff6666;
+  margin-left: 3px;
+  margin-bottom: 10px;
+}
+#GOreplay {
+  background-color: #80ccff;
+  margin-right: 3px;
+  margin-bottom: 10px;
+}
+.GOmodal-footer {
+  text-align: center;
+}
+.pauseContainer {
+  text-align: center;
+  margin: 100px;
+}
+.pauseModal-content {
+  background-color: transparent;
+  font-family: 'Cabin Sketch', cursive;
+}
+.pauseModal-content h1 {
+  margin: 30px;
+  font-size: 5em;
+  color: white;
+  font-weight: bold;
+}
+
+body.modal-open .blur{
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+    filter: url("https://gist.githubusercontent.com/amitabhaghosh197/b7865b409e835b5a43b5/raw/1a255b551091924971e7dee8935fd38a7fdf7311/blur".svg#blur);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}
+
+}
+#resume {
+  background-color: black;
+}
+#resumeImg {
+  max-width: 512px;
+  background-color: #e97c7c;
+  border-radius: 20px;
+}
+.video {
+  padding-right: 10%;
+  padding-top: 2%;
+}
+.modal-title {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px -5px 8px black;
+  font-family: 'Cabin Sketch', cursive;
+}
+.modal-body p {
+  font-size: 16px;
+}
+.purple {
+  color: purple;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.info{
+  background-color: #ffcc99;
+  font-family: 'Cabin Sketch', cursive;
+}
+#close-btn {
+  background-color: #ffe6cc;
+  color: #black;
+}
+
+.info-body {
+  background-color: #ffe6cc;
+}
+.modal-body li {
+  font-size: 16px;
+}
+#title {
+  font-size: 20px;
+}
+
+
+/*88888888888888888*/
+
+
+
+.rules-header {
+  text-align: center;
+  font-size: 5em;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px -5px 8px black;
+  font-family: 'Cabin Sketch', cursive;
+  background-color: #ffcc99;
+  margin-top: 20px;
+}
+
+.rules-body {
+  background-color: #ffe6cc;
+  padding: 20px;
+}
+.rules-body p {
+font-size: 20px;
+}
+.rules-body ul {
+font-size: 20px;
+}
+
+.video {
+  margin-bottom: 20px;
+  text-align: center;
+}
