@@ -4,6 +4,9 @@
 /*Body----------------------------------*/
 body {
   background-color: black;
+  background-image: url('/Users/Guest/Desktop/epic-set/img/background1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .timer{
@@ -38,7 +41,7 @@ body {
 
 #initialBack {
   position: absolute;
-  right: 0;
+  right: 100px;
 }
 
 #pin {
@@ -123,7 +126,7 @@ body {
 }
 
 /*card styles--------------------------*/
-#mainDragon {
+#leftDragon {
   position:absolute;
   left: 160px;
   bottom:510px;
@@ -131,7 +134,7 @@ body {
 
 #rightDragon {
   position: absolute;
-  right: 100px;
+  right: 0px;
   bottom: 430px;
 
 }
@@ -162,7 +165,7 @@ body {
 }
 
 .cardShadow {
-  box-shadow: 3px 3px 5px 5px #e97c7c;
+  box-shadow: 3px 3px 5px 5px red;
 }
 
 
@@ -345,6 +348,9 @@ h4 {
   font-size: 20px;
 }
 
+#submit {
+  font-weight: bold;
+}
 
 /*88888888888888888*/
 
